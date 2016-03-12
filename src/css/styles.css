@@ -165,7 +165,7 @@ body{
 }
 
 .container-hero{
-  height: 90vh;
+  height: 100vh;
   margin-top: -46px;
   background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%),  url('../../dest/images/hero1.jpg') no-repeat center fixed;
   background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%),  url('../../dest/images/hero1.jpg') no-repeat center fixed;
@@ -173,7 +173,7 @@ body{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 );
   background-size: cover;
 }
-.container-hero h1{
+.container-hero > h1{
   color: #D7D200;
   text-align: center;
   font-size: 3.5rem;
@@ -181,11 +181,17 @@ body{
   padding-top: 20%;
   padding-bottom: 1.5%;
 }
-.container-hero h3{
+.container-hero > h2{
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 2.25rem;
   margin: 0 20%;
   color: #fff;
+}
+.container-hero > h3{
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2em 20%;
+  color: #e4e8ff;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
