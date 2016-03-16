@@ -19,7 +19,24 @@
 
   <div class="container" id="container">
 	  <div class="container-hero-contact">
+      <form method="GET" action="mailto:tim.smith.hdg@gmail.com" enctype="text/plain">
+        <div>Subject</div>
+        <input type="text" name="subject" />
 
+        <div>Name</div>
+        <input name="Name" />
+
+        <div>E-Mail</div>
+        <input name="E-Mail Address" />
+
+        <div>Message</div>
+        <textarea name="Message"></textarea>
+
+        <br/>
+        <input type="submit" value="Send" />
+
+        <input type="hidden" name="body" />
+      </form>
 	  </div>
   </div>
 
